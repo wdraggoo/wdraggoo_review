@@ -20,13 +20,13 @@ class SortDemoTest {
     @Test
     public void testNumber() {
        data.initializeArray("20");
-       assertTrue(data.myArray.length == 20);
+       assertTrue(data.getMyArray().length == 20);
        
        data.initializeArray("30");
-       assertTrue(data.myArray.length == 30);
+       assertTrue(data.getMyArray().length == 30);
        
        data.initializeArray("0");
-       assertTrue(data.myArray.length == 0);
+       assertTrue(data.getMyArray().length == 0);
     }
 
 
